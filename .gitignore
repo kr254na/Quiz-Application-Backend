@@ -1,0 +1,40 @@
+# Ignore Maven target folder
+/target/
+
+# Ignore Maven Wrapper files (optional, keep if you want reproducible builds)
+!/.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+!/mvnw
+!/mvnw.cmd
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific
+application.properties
+application.yml
+*.db
+*.h2.db
+*.mv.db
+
+# Environment & credentials
+*.env
+
+# Generated sources
+/target/
+*/generated-sources/
+
+# Test reports
+/test-output/
+surefire-reports/
+failsafe-reports/
