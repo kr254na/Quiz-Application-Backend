@@ -14,29 +14,6 @@ This project demonstrates REST API development in Java with **Spring Boot** and 
 
 ---
 
-## 🏗️ Project Structure
-```bash
-Quiz-Application
-┣ 📂 src
-┃ ┣ 📂 main
-┃ ┃ ┣ 📂 java
-┃ ┃ ┃ ┗ 📂 com.krishna.Quiz.Application
-┃ ┃ ┃ ┃ ┣ 📂 controller # REST Controllers
-┃ ┃ ┃ ┃ ┣ 📂 model # Entity / DTO Classes
-┃ ┃ ┃ ┃ ┣ 📂 repo # JPA Repositories
-┃ ┃ ┃ ┃ ┣ 📂 service # Business Logic
-┃ ┃ ┃ ┃ ┗ 📜 QuizApplication.java
-┃ ┃ ┣ 📂 resources
-┃ ┃ ┃ ┣ 📜 application.properties
-┃ ┃ ┃ ┣ 📜 data.sql # Initial DB setup
-┃ ┃ ┃ ┣ 📂 static # Static resources
-┃ ┃ ┃ ┗ 📂 templates # Thymeleaf templates (if any)
-┣ 📂 test # Unit & Integration tests
-┗ 📜 pom.xml
-```
-
----
-
 ## 🚀 Tech Stack
 - **Java 17+**
 - **Spring Boot**
@@ -64,3 +41,32 @@ Body: [
   { "id":"45", "response": "2" }
 ]
 ```
+
+---
+
+## 🏗️ Project Structure
+```bash
+Quiz-Application
+┣ 📂 src
+┃ ┣ 📂 main
+┃ ┃ ┣ 📂 java
+┃ ┃ ┃ ┗ 📂 com.krishna.Quiz.Application
+┃ ┃ ┃ ┃ ┣ 📂 controller # REST Controllers
+┃ ┃ ┃ ┃ ┣ 📂 model # Entity / DTO Classes
+┃ ┃ ┃ ┃ ┣ 📂 repo # JPA Repositories
+┃ ┃ ┃ ┃ ┣ 📂 service # Business Logic
+┃ ┃ ┃ ┃ ┗ 📜 QuizApplication.java
+┃ ┃ ┣ 📂 resources
+┃ ┃ ┃ ┣ 📜 application.properties
+┃ ┃ ┃ ┣ 📜 data.sql # Initial DB setup
+┃ ┃ ┃ ┣ 📂 static # Static resources
+┃ ┃ ┃ ┗ 📂 templates # Thymeleaf templates (if any)
+┣ 📂 test # Unit & Integration tests
+┗ 📜 pom.xml
+```
+
+---
+
+# ⭐ Contribution
+
+Feel free to fork this repo, raise issues, and submit pull requests!
