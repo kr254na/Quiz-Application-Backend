@@ -15,6 +15,7 @@ This project demonstrates REST API development in Java with **Spring Boot** and 
 ---
 
 ## 🏗️ Project Structure
+```bash
 Quiz-Application
 ┣ 📂 src
 ┃ ┣ 📂 main
@@ -32,7 +33,7 @@ Quiz-Application
 ┃ ┃ ┃ ┗ 📂 templates # Thymeleaf templates (if any)
 ┣ 📂 test # Unit & Integration tests
 ┗ 📜 pom.xml
-
+```
 
 ---
 
